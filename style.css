@@ -1,0 +1,212 @@
+
+https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+*{
+    padding-left: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+}
+
+.Profile-Card{
+    display: flex;
+    width: 450px;
+    height: 500px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: blue;
+    border: 2px solid white;
+    padding-bottom: 2px;
+    box-shadow: 0 0 10px rgba(226, 221, 221, 0.777);
+}
+
+.Profile-Card .profile-image{
+    width: 450px;
+    height: 150px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.name{
+    font-size: 30px;
+    font-weight: 600;
+    color: #595555;
+    margin: 10px;
+}
+
+
+.media-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    
+
+}
+
+.bi-facebook{
+    font-size: 23px;
+    color: #3b5998;
+    cursor: pointer;
+}
+.bi-twitter{
+    font-size: 23px;
+    color: #1DA1F2;
+    cursor: pointer;
+}
+.bi-instagram{
+    font-size: 23px;
+    color: #C13584;
+    cursor: pointer;
+}
+.bi-linkedin{
+    font-size: 23px;
+    color: #0077B5;
+    cursor: pointer;
+}
+.bi-github{
+    font-size: 23px;
+    color: #333;
+    cursor: pointer;
+}
+.bi-youtube{
+    font-size: 23px;
+    color: #FF0000;
+    cursor: pointer;
+}
+.bi-whatsapp{
+    font-size: 23px;
+    color: #25D366;
+    cursor: pointer;
+}
+.bi-telegram{
+    font-size: 23px;
+    color: #0088cc;
+    cursor: pointer;
+}
+.bi-tiktok{
+    font-size: 22px;
+    color: hsl(189, 16%, 91%);
+    cursor: pointer;
+    background-color: #000;
+    border-radius: 50%;
+}
+.bi-reddit{
+    font-size: 23px;
+    color: #FF4500;
+    cursor: pointer;
+}
+
+
+.media-buttons:hover{
+    transform: scale(1.1);
+    
+}
+.media-buttons:hover .bi-facebook,
+.media-buttons:hover .bi-twitter,
+.media-buttons:hover .bi-instagram,
+.media-buttons:hover .bi-linkedin,
+.media-buttons:hover .bi-github,
+.media-buttons:hover .bi-youtube,
+.media-buttons:hover .bi-whatsapp,
+.media-buttons:hover .bi-telegram,
+.media-buttons:hover .bi-tiktok,
+.media-buttons:hover .bi-reddit{
+    color: #fff;
+}
+.media-buttons:hover .bi-tiktok{
+    background-color: lab(93.85% 2.02 0.7);
+}
+
+.contact-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 120px;
+    height: 60;
+
+    
+}
+
+
+.btn:hover{
+    background-color: #004080;
+}
+
+
+
+.data-analysis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 10px;
+    
+}
+.data{
+    display: flex;
+    border-right: #000 solid 1px;
+    padding-right: 20px;
+    gap: 7px;
+    cursor: pointer;
+}
+.data:last-child{
+    border-right: none;
+}
+
+
+
+
+
+    
+
